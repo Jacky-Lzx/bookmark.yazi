@@ -100,7 +100,7 @@ local action_save = function(mb_path, bookmarks, path)
     local value, event = ya.input({
       title = "Tag (alias name)",
       value = tag,
-      position = { "top-center", y = 3, w = 40 },
+      pos = { "top-center", y = 3, w = 40 },
     })
     if event ~= 1 then
       return
