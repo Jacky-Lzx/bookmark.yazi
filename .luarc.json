@@ -1,6 +1,9 @@
 {
     "diagnostics.globals": [
         "ya",
-        "cx"
+        "cx",
+        "ui",
+        "fs",
+        "Url"
     ]
 }
